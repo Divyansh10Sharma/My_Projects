@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FriendlyTinder</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <link rel="stylesheet" href="profile.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+  <!---------------Swiper CSS Link---------------->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+</head>
+<body>
+  
+  <nav>
+    <div class="nav-container">
+
+      <div class="nav-left">
+        <a href="index.html" class="logo"><h3>Friendly<span>Tinder</span></h3></a>
+        <a href="index.html" class="hidden-icon"><i class="fa fa-home"></i></a>
+        <a href="FriendRequests.html" class="hidden-icon"><i class="fa fa-user"></i></a>
+        <div class="nav-search">
+          <span>
+            <i class="fa fas fa-search"></i>
+          </span>
+          <input type="search">
+        </div>
+      </div>
+
+
+      <div class="nav-right">
+        <a href="chatbox.html" class="hidden-icon"><i class="fa far fa-envelope"></i></a>
+        <a href="#" class="hidden-icon"><i class="fa far fa-bell"></i></a>
+        <button class="moon-icon"><i class="fa far fa-moon"></i></button>
+        <button class="sun-icon"><i class="fa far fa-sun"></i></button>
+        <button class="menu-bar hidden-icon"><i class="fa fa-bars"></i></button>
+        <a href="profile.html" class="user">
+          <img src="images/me 2.jpg" alt="">
+          <h4>Divyansh</h4>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+  <main>
+<!---------------------------------Left Bar------------------------->
+    <div class="left-bar">
+      <div class="left-bar-container">
+        <a href="profile.html" class="menu-item user">
+          <img src="images/me 2.jpg" alt="">
+          <h4>Divyansh</h4>
+        </a>  
+        <a href="profile.html" class="menu-item">
+          <img src="images/1.jpg" alt="">
+          <h4>Friends</h4>
+        </a> 
+        <a href="#" class="menu-item">
+          <img src="images/2.jpg" alt="">
+          <h4>Groups</h4>
+        </a> 
+        <a href="#" class="menu-item">
+          <img src="images/3.jpg" alt="">
+          <h4>Friends</h4>
+        </a> 
+        <a href="https://youtube/shorts/" target="_blank" class="menu-item">
+          <img src="images/4.jpg" alt="">
+          <h4>Watch</h4>
+        </a> 
+
+        <hr>
+        <h4 class="others">Your Shortcuts</h4>
+
+        <a href="#" class="menu-item">
+          <img src="images/5.jpg" alt="">
+          <h4>Gallery</h4>
+        </a>
+        <a href="https://youtube/" target="_blank" class="menu-item">
+          <img src="images/6.jpg" alt="">
+          <h4>Videos</h4>
+        </a>
+        <a href="chatbox.html" class="menu-item">
+          <img src="images/7.jpg" alt="">
+          <h4>Messages</h4>
+        </a> 
+      </div>
+    </div>
+
+
+
+<!---------------------------------Feed Bar------------------------->
+    <div class="feeds-bar">
+      <div class="container">
+        <!---------------Profile part-------------------->
+        <div class="profile">
+          <div class="cover-photo">
+            <img src="images/7.jpg">
+          </div>
+          <div class="profile-info">
+            <img src="images/me 2.jpg" class="profile-pic">
+            <div class="profile-name">
+              <h3>Divyansh Sharma</h3>
+              <h5>@_divyansh._.sharma_</h5>
+            </div>
+            <div class="profile-action">
+              <a href="chatbox.html" class="btn btn-primary">
+                <i class="fa fa-message"></i>
+              </a>
+              <button class="btn btn-primary">
+                <i class="fa fa-feed"></i> Follow Me
+              </button>
+              <button class="btn">
+                <i class="fa fa-link"></i>
+              </button>
+              <div class="bio">
+                I take shots like Bully Maguire and play Guitar like Metallica's guitarist 
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!----------------Add Post---------------->
+        <div class="post-form">
+          <div class="user post-form-top">
+            <img src="images/me 2.jpg" alt="">
+            <input type="text" placeholder="What's On Your Mind?" id="">
+            <button type="submit" class="btn btn-primary">Post</button>
+          </div>
+          <div class="post-categories">
+            <label for="file">
+              <input type="file" id="file">
+              <span><i class="fa far fa-image"></i> Photos</span>
+            </label>
+            <label for="file">
+              <input type="file" id="file">
+              <span><i class="fa far fas fa-video"></i> Videos</span>
+            </label>
+            <span><i class="fa fa-tags"></i> Tag</span>
+            <span><i class="fa fas fa-smile"></i> Feelings</span>
+          </div>
+        </div>
+
+        <!----------------Feeds post--------------->
+        <div class="feeds">
+          <div class="feed">
+            <div class="feed-top-content">
+              <a href="profile.html" class="user">
+                <img src="images/5.jpg" alt="">
+                <div>
+                  <h5>Anjela Doe</h5>
+                  <small>1 Minutes Ago</small>
+                </div>
+              </a>
+              <span><i class="fa fa-list"></i></span>
+            </div>
+            <div class="feed-mid-content">
+              <p>
+                Beautiful Days at the Beach :)
+              </p>
+              <img src="images/5.jpg" alt="">
+            </div>
+            <div class="feed-bottom-content">
+              <span><i class="fa far fa-heart"></i> 6 Likes</span>
+              <span><i class="fa far far fa-comment"></i> 2 Comments</span>
+              <span><i class="fa far far fa-share-square"></i> 1 Share</span>
+            </div>
+          </div>
+          <div class="feed">
+            <div class="feed-top-content">
+              <a href="profile.html" class="user">
+                <img src="images/6.jpg" alt="">
+                <div>
+                  <h5>Sivya Mia</h5>
+                  <small>10 Minutes Ago</small>
+                </div>
+              </a>
+              <span><i class="fa fa-list"></i></span>
+            </div>
+            <div class="feed-mid-content">
+              <p>
+                At Met Gala
+              </p>
+              <img src="images/6.jpg" alt="">
+            </div>
+            <div class="feed-bottom-content">
+              <span><i class="fa far fa-heart"></i> 14 Likes</span>
+              <span><i class="fa far far fa-comment"></i> 3 Comments</span>
+              <span><i class="fa far far fa-share-square"></i> 2 Share</span>
+            </div>
+          </div>
+          <div class="feed">
+            <div class="feed-top-content">
+              <a href="profile.html" class="user">
+                <img src="images/7.jpg" alt="">
+                <div>
+                  <h5>Around the World</h5>
+                  <small>15 Minutes Ago</small>
+                </div>
+              </a>
+              <span><i class="fa fa-list"></i></span>
+            </div>
+            <div class="feed-mid-content">
+              <p>
+                Sahara is one of the few places where you get lost and are happy and terrified at the same time
+              </p>
+              <img src="images/7.jpg" alt="">
+            </div>
+            <div class="feed-bottom-content">
+              <span><i class="fa far fa-heart"></i> 146 Likes</span>
+              <span><i class="fa far far fa-comment"></i> 13 Comments</span>
+              <span><i class="fa far far fa-share-square"></i> 10 Share</span>
+            </div>
+          </div>
+          <div class="feed">
+            <div class="feed-top-content">
+              <a href="profile.html" class="user">
+                <img src="images/8.jpg" alt="">
+                <div>
+                  <h5>Cheo-Sang</h5>
+                  <small>18 Minutes Ago</small>
+                </div>
+              </a>
+              <span><i class="fa fa-list"></i></span>
+            </div>
+            <div class="feed-mid-content">
+              <p>
+                What you wear doesn't matter, it's how you wear it that makes the difference
+              </p>
+              <img src="images/8.jpg" alt="">
+            </div>
+            <div class="feed-bottom-content">
+              <span><i class="fa far fa-heart"></i> 28 Likes</span>
+              <span><i class="fa far far fa-comment"></i> 14 Comments</span>
+              <span><i class="fa far far fa-share-square"></i> 1 Share</span>
+            </div>
+          </div>
+          <div class="feed">
+            <div class="feed-top-content">
+              <a href="profile.html" class="user">
+                <img src="images/9.jpg" alt="">
+                <div>
+                  <h5>Linda Baker</h5>
+                  <small>26 Minutes Ago</small>
+                </div>
+              </a>
+              <span><i class="fa fa-list"></i></span>
+            </div>
+            <div class="feed-mid-content">
+              <p>
+                Wind blew and my face got hairy, but feeling good...
+              </p>
+              <img src="images/9.jpg" alt="">
+            </div>
+            <div class="feed-bottom-content">
+              <span><i class="fa far fa-heart"></i> 17 Likes</span>
+              <span><i class="fa far far fa-comment"></i> 6 Comments</span>
+              <span><i class="fa far far fa-share-square"></i> &bull; Share</span>
+            </div>
+          </div>
+          <div class="feed">
+            <div class="feed-top-content">
+              <a href="profile.html" class="user">
+                <img src="images/10.jpg" alt="">
+                <div>
+                  <h5>Jemmy Garcia</h5>
+                  <small>45 Minutes Ago</small>
+                </div>
+              </a>
+              <span><i class="fa fa-list"></i></span>
+            </div>
+            <div class="feed-mid-content">
+              <p>
+                Sunsets are Magnificent
+              </p>
+              <img src="images/10.jpg" alt="">
+            </div>
+            <div class="feed-bottom-content">
+              <span><i class="fa far fa-heart"></i> 34 Likes</span>
+              <span><i class="fa far far fa-comment"></i> 18 Comments</span>
+              <span><i class="fa far far fa-share-square"></i> 4 Share</span>
+            </div>
+          </div>
+          <div class="feed">
+            <div class="feed-top-content">
+              <a href="profile.html" class="user">
+                <img src="images/13.jpg" alt="">
+                <div>
+                  <h5>Amilia Perry</h5>
+                  <small>1 Hours Ago</small>
+                </div>
+              </a>
+              <span><i class="fa fa-list"></i></span>
+            </div>
+            <div class="feed-mid-content">
+              <p>
+                Listening Music isn't Enough now, I HAVE TO EAT THE SONG!!!  
+              </p>
+              <img src="images/13.jpg" alt="">
+            </div>
+            <div class="feed-bottom-content">
+              <span><i class="fa far fa-heart"></i> 43 Likes</span>
+              <span><i class="fa far far fa-comment"></i> 20 Comments</span>
+              <span><i class="fa far far fa-share-square"></i> 4 Share</span>
+            </div>
+          </div>
+          <div class="feed">
+            <div class="feed-top-content">
+              <a href="profile.html" class="user">
+                <img src="images/12.jpg" alt="">
+                <div>
+                  <h5>Alexa Byers</h5>
+                  <small>1 Hours Ago</small>
+                </div>
+              </a>
+              <span><i class="fa fa-list"></i></span>
+            </div>
+            <div class="feed-mid-content">
+              <p>
+                don't feeling kinda meany #AmandaSeyfried 
+              </p>
+              <img src="images/12.jpg" alt="">
+            </div>
+            <div class="feed-bottom-content">
+              <span><i class="fa far fa-heart"></i> 37 Likes</span>
+              <span><i class="fa far far fa-comment"></i> 23 Comments</span>
+              <span><i class="fa far far fa-share-square"></i> 2 Share</span>
+            </div>
+          </div>
+          <div class="feed">
+            <div class="feed-top-content">
+              <a href="profile.html" class="user">
+                <img src="images/11.jpg" alt="">
+                <div>
+                  <h5>EmilytheRabbit</h5>
+                  <small>2 Hours Ago</small>
+                </div>
+              </a>
+              <span><i class="fa fa-list"></i></span>
+            </div>
+            <div class="feed-mid-content">
+              <p>
+                Feeling kinda something... Headphones link in the description #beats
+              </p>
+              <img src="images/11.jpg" alt="">
+            </div>
+            <div class="feed-bottom-content">
+              <span><i class="fa far fa-heart"></i> 178 Likes</span>
+              <span><i class="fa far far fa-comment"></i> 89 Comments</span>
+              <span><i class="fa far far fa-share-square"></i> 47 Share</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+<!---------------------------------Right Bar------------------------->
+    <div class="right-bar">
+      <div class="right-bar-container">
+<!-----------------Messages Section------------------>        
+        <div class="messages">
+          <div class="message-top">
+            <h4>Message</h4>
+            <span><i class="fa fa-edit"></i></span>
+          </div>
+          <div class="message-search">
+            <span><i class="fa fa-search"></i></span>
+            <input type="search" placeholder="Search Message">
+          </div>
+          <div class="border-div"></div>
+          <a href="chatbox.html" class="message">
+            <div class="user">
+              <img src="images/1.jpg" alt="">
+              <div class="green-active"></div>
+            </div>
+            <div class="message-body">
+              <h5>Ruby Mark</h5>
+              <p>At the Cafe</p>
+            </div>
+          </a>
+          <a href="chatbox.html" class="message">
+            <div class="user">
+              <img src="images/2.jpg" alt="">
+              <div class="green-active"></div>
+            </div>
+            <div class="message-body">
+              <h5>Evrahim Alli</h5>
+              <p>Sent a photo.</p>
+            </div>
+          </a>
+          <a href="chatbox.html" class="message">
+            <div class="user">
+              <img src="images/3.jpg" alt="">
+              <div class="green-active"></div>
+            </div>
+            <div class="message-body">
+              <h5>Rachel Geller</h5>
+              <p>You single handsome? ;)</p>
+            </div>
+          </a>
+          <a href="chatbox.html" class="message">
+            <div class="user">
+              <img src="images/5.jpg" alt="">
+              
+            </div>
+            <div class="message-body">
+              <h5>Angela Doe</h5>
+              <p>Gn</p>
+            </div>
+          </a>
+          <a href="chabox.html" class="message">
+            <div class="user">
+              <img src="images/6.jpg" alt="">
+              
+            </div>
+            <div class="message-body">
+              <h5>Sivya Mia</h5>
+              <p>yeah naruto and sasuke</p>
+            </div>
+          </a>
+        </div>
+        
+<!----------------Friend Follow-----------------> 
+       <div class="friend-requests">
+        <h4>Follow Requests</h4>
+        <div class="request">
+          <a href="profile.html" class="user">
+            <img src="images/19.png" alt="">
+            <h5>Steve Andro</h5>
+          </a>
+          <p class="follow-info">3 Mutual Followers</p>
+          <div class="request-action">
+            <button class="btn btn-primary">Accept</button>
+            <button class="btn btn-red">Delete</button>
+          </div>
+        </div>
+        <div class="request">
+          <a href="profile.html" class="user">
+            <img src="images/18.png" alt="">
+            <h5>Max Jr.</h5>
+          </a>
+          <p class="follow-info">6 Mutual Followers</p>
+          <div class="request-action">
+            <button class="btn btn-primary">Accept</button>
+            <button class="btn btn-red">Delete</button>
+          </div>
+        </div>
+        <div class="request">
+          <a href="profile.html" class="user">
+            <img src="images/17.png" alt="">
+            <h5>Natalie Monroe</h5>
+          </a>
+          <p class="follow-info">12 Mutual Followers</p>
+          <div class="request-action">
+            <button class="btn btn-primary">Accept</button>
+            <button class="btn btn-red">Delete</button>
+          </div>
+        </div>
+        <div class="request">
+          <a href="profile.html" class="user">
+            <img src="images/16.png" alt="">
+            <h5>Joe Geller</h5>
+          </a>
+          <p class="follow-info">15 Mutual Followers</p>
+          <div class="request-action">
+            <button class="btn btn-primary">Accept</button>
+            <button class="btn btn-red">Delete</button>
+          </div>
+        </div>
+       </div>
+      </div>
+    </div>
+
+  </main>
+
+
+<!-----------------Swipper JS Link---------------------->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>
